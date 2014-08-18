@@ -27,7 +27,6 @@ function s3get(bucketName, key, concurrency) {
   var nparallel = typeof key === 'number' ? key : concurrency
   var stream
   if (nparallel) {
-    console.log(nparallel)
     var creator = s3getCreator(bucketName)
     stream = concurrent(nparallel, creator)
   }
