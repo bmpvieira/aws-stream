@@ -1,0 +1,28 @@
+{
+  "name": "aws-stream",
+  "version": "0.0.0",
+  "description": "Node.js Stream interface for Amazon Web Services (AWS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bmpvieira/aws-stream.git"
+  },
+  "keywords": [
+    "streams",
+    "aws"
+  ],
+  "author": "Bruno Vieira <mail@bmpvieira.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmpvieira/aws-stream/issues"
+  },
+  "homepage": "https://github.com/bmpvieira/aws-stream",
+  "dependencies": {
+    "aws-sdk": "^2.0.14",
+    "concurrent-stream": "^0.1.0",
+    "through2": "^0.6.1"
+  }
+}
