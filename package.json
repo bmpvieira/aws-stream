@@ -22,6 +22,7 @@
   "homepage": "https://github.com/bmpvieira/aws-stream",
   "dependencies": {
     "aws-sdk": "^2.0.14",
+    "concat-stream": "^1.4.6",
     "concurrent-stream": "^0.1.0",
     "through2": "^0.6.1"
   }
