@@ -1,6 +1,6 @@
 {
   "name": "aws-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node.js Stream interface for Amazon Web Services (AWS)",
   "main": "index.js",
   "scripts": {
